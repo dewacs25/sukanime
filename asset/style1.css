@@ -1,0 +1,808 @@
+body {
+  background: #eee;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+hr {
+  border: 0;
+  background: #dedede;
+  height: 1px;
+}
+
+header {
+  text-align: center;
+  color: #232323;
+}
+header img {
+  margin-right: 50%;
+  width: 200px;
+}
+header .judul {
+  font-size: 17pt;
+}
+
+header .deskripsi {
+  font-size: 11pt;
+}
+
+.wrap {
+  width: 950px;
+  margin: 25px auto;
+  margin-top: 0%;
+}
+
+nav.menu ul {
+  overflow: hidden;
+  color: #fff;
+  list-style: none;
+  float: left;
+  padding: 0;
+  width: 650px;
+  margin: 0 0 0 0;
+  background: lightpink;
+}
+
+nav.menu ul li {
+  margin: 0;
+  float: left;
+  border: none;
+}
+
+nav.menu ul a {
+  padding: 25px;
+  display: block;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+
+nav.menu ul a:hover {
+  background: #fa8072;
+}
+
+.sidebar {
+  float: right;
+  width: 275px;
+}
+
+.inn {
+  width: 230px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  float: top;
+}
+.cari {
+  background-color: transparent;
+  border: none;
+  color: lightpink;
+}
+.sidebar .widget {
+  padding: 25px;
+  margin: 63px 0 25px;
+  background: #fff;
+  border-bottom: 2px solid #fff;
+  transition: all 0.5s;
+}
+
+.sidebar .widget:hover {
+  border-bottom: 2px solid #3498db;
+}
+
+.sidebar .widget h2 {
+  padding: 0;
+  margin: 0 0 15px;
+  color: #3498db;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.sidebar .widget p {
+  font-size: 14px;
+}
+
+.sidebar .widget p:last-child {
+  margin: 0;
+}
+.sidebar .widget_login a {
+  margin-right: 20px;
+}
+
+.blog {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.conteudo {
+  width: 600px;
+  padding: 25px;
+  margin: 25px auto;
+  background: #fff;
+  border: 1px solid #dedede;
+}
+
+.conteudo img {
+  min-width: 650px;
+  margin: 0 0 25px -25px;
+  max-width: 650px;
+}
+
+.conteudo h1 {
+  padding: 0;
+  margin: 0 0 15px;
+  font-weight: normal;
+  color: #666;
+  font-family: Georgia;
+}
+
+.conteudo p {
+  margin: 0;
+  color: rgb(37, 37, 37);
+}
+
+.conteudo .continue-lendo {
+  color: #000;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.conteudo .continue-lendo:hover {
+  margin-left: 10px;
+}
+
+.post-info {
+  float: right;
+  font-size: 12px;
+  margin: -10px 0 15px;
+  text-transform: uppercase;
+}
+
+.conteudo .ga select {
+  margin: 5px;
+  width: 400px;
+  height: 50px;
+  background: transparent;
+}
+.conteudo .ga input {
+  margin: 5px;
+  width: 400px;
+  height: 50px;
+}
+
+.conteudo .ga textarea {
+  margin: 5px;
+}
+.conteudo .ga button {
+  margin: 5px;
+  width: 70px;
+  height: 30px;
+  background: #3498db;
+  border: none;
+}
+.conteudo .ga button:hover {
+  background: #0185dd;
+}
+
+.tulisan_login {
+  text-align: center;
+
+  text-transform: uppercase;
+}
+
+.kotak_login {
+  width: 350px;
+  background: white;
+
+  margin: 80px auto;
+  padding: 30px 20px;
+}
+
+.form_login {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+.tombol_login {
+  background: pink;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+.tombol_login:hover {
+  background: lightpink;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+.kotak_login a {
+  text-decoration: none;
+  color: grey;
+}
+.kirim {
+  background-color: transparent;
+  background-image: url("../asset/icon/kirim.png");
+  width: 32px;
+  height: 32px;
+  border: none;
+}
+.kirim:hover {
+  background-color: lightpink;
+  background-image: url("../asset/icon/kirim.png");
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+}
+.area {
+  background: transparent;
+  width: 600px;
+  height: 100%;
+  border: none;
+  resize: none;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+.widget_login {
+  background: white;
+  padding: 10px;
+  border-bottom: 2px solid #fff;
+  transition: all 0.5s ease;
+  margin-bottom: 5px;
+  border-bottom: 2px solid white;
+  transition: all 0.5s;
+}
+
+.x {
+  font-size: 20px;
+  color: red;
+  text-align: right;
+  margin-left: 93%;
+}
+.x:hover {
+  color: rgb(255, 109, 109);
+}
+.widget_login:hover {
+  border-bottom: 2px solid #3498db;
+}
+
+.widget_login h1 {
+  padding-top: 10px;
+  text-align: center;
+  color: #3498db;
+}
+.widget_login button {
+  width: 100%;
+  height: 25px;
+  border-radius: 10px;
+  background: rgb(54, 255, 54);
+  border: none;
+}
+.widget_login a {
+  text-decoration: none;
+  color: gray;
+}
+.widget_login button:hover {
+  font-size: 15px;
+  background: rgb(127, 255, 127);
+  transition: 300ms;
+}
+.input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.logout {
+  text-decoration: none;
+  color: red;
+}
+.kontenkomen .ha {
+  float: right;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+  margin-top: 7px;
+}
+.kontenkomen {
+  width: 100%;
+}
+.widget .kate {
+  width: 100%;
+  text-align: left;
+}
+.widget .kate a {
+  text-decoration: none;
+
+  color: gray;
+}
+.hijau {
+  margin-left: 20px;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.ko p img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+}
+.ko p {
+  line-height: 1.2em;
+}
+.cof {
+  color: blue;
+  font-size: 20px;
+  transition: all 300ms;
+}
+.cof:hover {
+  font-size: 18px;
+  color: rgb(94, 94, 248);
+}
+.coi:hover {
+  font-size: 18px;
+  color: rgb(226, 110, 110);
+}
+.coi {
+  color: rgb(236, 45, 45);
+  font-size: 20px;
+  transition: all 300ms;
+}
+.bubu {
+  width: 40px;
+  font-size: 20px;
+  background: transparent;
+  color: blue;
+  border: none;
+  transition: all 200ms;
+}
+.bubu:hover {
+  color: #488dbb;
+  font-size: 18px;
+}
+.blog .se {
+  background: red;
+  margin: 0 0 0 35%;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  transition: all 300ms;
+}
+.blog .se:hover {
+  margin: 0 0 0 35%;
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  background: rgb(248, 64, 64);
+}
+footer {
+  font-size: 12px;
+  color: gray;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background: #eee;
+    margin: 0%;
+    font-family: "Open Sans", sans-serif;
+    width: auto;
+  }
+  hr {
+    border: 0;
+    background: #dedede;
+    height: 1px;
+  }
+
+  header {
+    margin-left: 5px;
+    text-align: center;
+    color: #232323;
+  }
+  header img {
+    width: 150px;
+  }
+
+  header .judul {
+    font-size: 17pt;
+  }
+
+  header .deskripsi {
+    font-size: 11pt;
+  }
+
+  .wrap {
+    width: auto;
+  }
+
+  nav.menu ul {
+    overflow: hidden;
+    color: #fff;
+    list-style: none;
+    float: left;
+    padding: 0;
+    width: 100%;
+    margin: 0%;
+    background: lightpink;
+    box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.55);
+  }
+
+  nav.menu ul li {
+    margin: 0;
+    float: left;
+    border: none;
+  }
+
+  nav.menu ul a {
+    padding: 10px;
+    display: block;
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    text-decoration: none;
+  }
+
+  nav.menu ul a:hover {
+    text-decoration: underline;
+    background: #fa8072;
+  }
+  .sidebar {
+    float: left;
+    width: 412px;
+  }
+
+  .inn {
+    width: 170px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+
+    margin: 5px;
+    font-size: 10px;
+  }
+  .cari {
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+  }
+  .sidebar .widget {
+    display: none;
+  }
+  .sidebar .widget_login {
+    padding: 5px;
+  }
+  .sidebar .widget_login a {
+    margin: 5px;
+  }
+  .sidebar .widget:hover {
+    border-bottom: 2px solid #3498db;
+  }
+
+  .sidebar .widget h2 {
+    padding: 0;
+    margin: 0 0 10px;
+    color: #3498db;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .sidebar .widget p {
+    font-size: 10px;
+  }
+
+  .sidebar .widget p:last-child {
+    margin: 0;
+  }
+
+  .blog {
+    float: left;
+  }
+
+  .conteudo {
+    width: auto;
+    padding: 10px;
+    padding-right: 0px;
+    margin: 10px auto;
+    background: #fff;
+    border: 1px solid #dedede;
+  }
+
+  .conteudo img {
+    min-width: 412px;
+    margin: 0 0 10px -10px;
+    max-width: 412px;
+  }
+
+  .conteudo h1 {
+    padding: 0;
+    margin: 0 0 12px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #666;
+    font-family: Georgia;
+  }
+
+  .conteudo p {
+    margin: 0;
+    color: rgb(37, 37, 37);
+    font-size: 12px;
+  }
+
+  .conteudo .continue-lendo {
+    color: #000;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  .conteudo .area {
+    background: transparent;
+    width: 412px;
+    height: 100%;
+    border: none;
+    resize: none;
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+  }
+
+  .conteudo .ga select {
+    margin: 5px;
+    width: 400px;
+    height: 50px;
+    background: transparent;
+  }
+  .conteudo .ga input {
+    margin: 5px;
+    width: 400px;
+    height: 50px;
+  }
+
+  .conteudo .ga textarea {
+    margin: 5px;
+  }
+  .post-info {
+    float: right;
+    font-size: 10px;
+    margin: 1px 10px 10px 0;
+    text-transform: uppercase;
+  }
+  .blog iframe {
+    width: 412px;
+  }
+  .conteudo .ga textarea {
+    margin: 5px;
+    width: 412;
+  }
+  .conteudo h3 {
+    text-align: left;
+  }
+
+  .widget_login {
+    background: white;
+    padding: 10px;
+    padding-top: 0%;
+    margin: 10px;
+    border-bottom: 2px solid white;
+    transition: all 0.5s;
+    width: 50%;
+    margin-left: 20%;
+  }
+  .widget_login a {
+    font-size: 12px;
+  }
+  .widget_login:hover {
+    border-bottom: 2px solid #3498db;
+  }
+  .widget_login h1 {
+    text-align: center;
+    color: #3498db;
+  }
+  .widget_login button {
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+    background: rgb(54, 255, 54);
+    border: none;
+    transition: all 0, 5s;
+  }
+  .widget_login button:hover {
+    font-size: 15px;
+    background: rgb(127, 255, 127);
+  }
+  .input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .x {
+    font-size: 20px;
+    color: red;
+
+    margin-right: 100%;
+  }
+  .blog .se {
+    background: red;
+    margin: 0 0 5px 34%;
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+    transition: all 300ms;
+    font-size: 12px;
+  }
+  .blog .se:hover {
+    margin: 0 0 0 35%;
+    padding: 2px;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    background: rgb(248, 64, 64);
+  }
+}
+
+/* @media only screen and (max-width: 376px){
+
+  
+  body {
+    background: #eee;
+    margin: 0%;
+    font-family: "Open Sans", sans-serif;
+    width: auto;
+  }
+  hr {
+    border: 0;
+    background: #dedede;
+    height: 1px;
+  }
+
+  header {
+    margin-left: 5px;
+    text-align: center;
+    color: #232323;
+  }
+  header img {
+    width: 150px;
+  }
+
+  header .judul {
+    font-size: 17pt;
+  }
+
+  header .deskripsi {
+    font-size: 11pt;
+  }
+
+  .wrap {
+    width: auto;
+  }
+
+  nav.menu ul {
+    overflow: hidden;
+    color: #fff;
+    list-style: none;
+    float: left;
+    padding: 0;
+    width: 100%;
+    margin: 0%;
+    background: lightpink;
+    box-shadow: 1px 1px 1px 0px rgba(204, 204, 204, 0.55);
+  }
+
+  nav.menu ul li {
+    margin: 0;
+    float: left;
+    border: none;
+  }
+
+  nav.menu ul a {
+    padding: 10px;
+    display: block;
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    text-decoration: none;
+  }
+
+  nav.menu ul a:hover {
+    text-decoration: underline;
+    background: #fa8072;
+  }
+  .sidebar {
+    float: left;
+    width: 100%;
+  }
+
+  .inn {
+    width: 170px;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+
+    margin: 5px;
+    font-size: 10px;
+  }
+  .cari {
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+  }
+  .sidebar .widget {
+    padding: 10px;
+    margin: 0 0 10px 0;
+    background: #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 0.5s ease;
+  }
+
+  .sidebar .widget:hover {
+    border-bottom: 2px solid #3498db;
+  }
+
+  .sidebar .widget h2 {
+    padding: 0;
+    margin: 0 0 10px;
+    color: #3498db;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .sidebar .widget p {
+    font-size: 10px;
+  }
+
+  .sidebar .widget p:last-child {
+    margin: 0;
+  }
+
+  .blog {
+    margin: 0%;
+    float: left;
+  }
+
+  .conteudo {
+    min-width: 365px;
+    max-width: 365px;
+    padding: 10px;
+    padding-right: 0px;
+    margin: 10px auto;
+    background: #fff;
+    border: 1px solid #dedede;
+  }
+
+  .conteudo img {
+    min-width: 373px;
+    margin: 0 0 10px -10px;
+    max-width: 373px;
+  }
+  .blog .se{
+    margin: 0 0 5px 34%;
+    
+  }
+} */
